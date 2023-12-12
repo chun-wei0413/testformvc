@@ -14,4 +14,10 @@ spring:
     http:
         encoding:
             force: true
+incrementer:
+    incrementerName: category_sequence
+    columnName: value
 
+    tableName: id_sequence
+    tableColumnName: table_name
+    valueColumnName: current_id
